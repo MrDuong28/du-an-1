@@ -15,8 +15,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Web bán hàng</title>
-		<link rel="stylesheet" type="text/css" href="giao_dien/style.css">
+		<title>TDT FASHION</title>
+		<link rel="stylesheet" type="text/css" href="giao_dien/css.css">
         
 	</head>
 	<body>
@@ -25,7 +25,7 @@
         	<div class="header">
             	<div class="header_left">
                 	<ul>
-                    	<li><span  style="color:red;"class="glyphicon glyphicon-earphone"></span>0914139010</li>
+                    	<li><span  style="color:red;"class="glyphicon glyphicon-earphone"></span>Hotline: 0914139010</li>
                         
                     </ul>
                 </div>
@@ -40,16 +40,20 @@
 			   
 		   </div>
         	</div>
-            <div style=" text-align:center; margin-top:25px; margin-bottom:15px;">
-            	<a href="index.php"><img style="height: 200px;" src="img/z4887413404811_1328bd9db9e2da99b79169c311b097ba.jpg"></a>
-            </div>
 			<div class="menu">
            				<?php
 							include("chuc_nang/menu_ngang/menu_ngang.php");
 						?> 
                         
 			</div>
-            <div class="conten">
+            <div style=" text-align:center; margin-top:25px; margin-bottom:15px;">
+	<br>
+	<br>
+	<br>
+	<br>
+            </div>
+			
+            <!-- <div class="conten">
             		<div class="conten_left">
                         <div class="nhungdanhmuc">
 						<h3 style="color: #000;">Danh mục sản phẩm</h3>
@@ -64,24 +68,22 @@
                             </div>
 						</div>		
                         
-                    </div>
+                    </div> -->
                     
                     <div class="conten_right">
-                			
                             <div class="conten_right-bottom">
-                            	
                                     <?php 
                                         include("chuc_nang/dieu_huong.php");
-                                    ?>
-                                   
+                                    ?>   
   							</div>
                 	</div>		
             </div>
-            <!-- end conten--->
+          
 				<?php include('footer.php');?>	
 					
                     
 				
 		</center>
+		
 	</body>
 </html>

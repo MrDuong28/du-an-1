@@ -15,8 +15,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Web bán hàng</title>
-		<link rel="stylesheet" type="text/css" href="giao_dien/style.css">
+		<title>TDT FASHION</title>
+		<link rel="stylesheet" type="text/css" href="giao_dien/css.css">
 
 	</head>
 	<body>
@@ -80,7 +80,7 @@
                     </div>
                     
                     <div class="conten_right">
-                    		<div style="border:1px solid #000; color:#000; text-align:justify; padding:5px;">
+                    		<div style=" color:#000; text-align:justify; padding:5px;">
                             	<h4>Hướng dẫn mua hàng</h4>
 
                                        <b><i style="color:#090;">Các bạn có thể qua trực tiếp SHOP để mặc thử hàng và mua hàng</i></b><br>
