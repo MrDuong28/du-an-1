@@ -16,75 +16,72 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" type="text/css" href="giao_dien/css.css">
+		<link rel="stylesheet" type="text/css" href="giao_dien/style.css">
 
 	</head>
 	<body>
     	
 		<center>
-		<div class="header">
+			<div class="header">
             	<div class="header_left">
                 	<ul>
                     	<li><span  style="color:red;"class="glyphicon glyphicon-earphone"></span>Hotline: 0914139010</li>
                         
                     </ul>
                 </div>
-                <div class="header_center">
-                	<div class="header_center_left"><?php include("chuc_nang/tim_kiem/vung_tim_kiem.php");?></div>
-                    <div class="header_center_right"></div>
-                </div>
+            	<div class="header_center">
+                	<div class="header_center_left">
+						<?php include("chuc_nang/tim_kiem/vung_tim_kiem.php");?>
+					</div>
+            	</div>
          
 				<div class="header_right">
                     
 					<a href="login_SignUp.php"> <span class="glyphicon glyphicon-user"></span>Tài Khoản</a>
 			   
-		   </div>
+		   		</div>
         	</div>
 			<div class="menu">
-           				<?php
-							include("chuc_nang/menu_ngang/menu_ngang.php");
-						?> 
-                        
+           		<?php include("chuc_nang/menu_ngang/menu_ngang.php");?>            
 			</div>
-            <!-- <div class="conten">
-            		<div class="conten_left">
-                        <div class="nhungdanhmuc">
-                        	<h3 style="color: #000;">Danh mục sản phẩm</h3>
-                            <div class="noidung" style="text-align:left;">
-                            	<?php include("chuc_nang/menu_doc/menu_doc.php"); ?>
-                             </div>   
-                        </div>   
-                        
-                        <div class="nhungdanhmuc">
+
+            <div class="conten">
+            	<div class="conten_left">
+                    <div class="nhungdanhmuc">
+                        <h3 style="color: #000;">Danh mục sản phẩm</h3>
+                        <div class="noidung" style="text-align:left;">
+                            <?php include("chuc_nang/menu_doc/menu_doc.php"); ?>
+                    	</div>   
+                    </div>   
+                        <hr>
+                    <div class="nhungdanhmuc">
 						<h3 style="color: black;">Sản phẩm mới nhất</h3>
-                            
-                        	<?php include("chuc_nang/san_pham/noi_bat.php");?>
-                            </div>
-						</div>		
-                        
-                    </div> -->
-                    <br>
-					<br>
-					<br>
-					<br><br>
-					<br>
-					<br>
+                        <?php include("chuc_nang/san_pham/noi_bat.php");?>
+                    </div>
 					
-                    <div class="conten_right" style="text-align:justify; color:#000;">
-                    		<div class=gioithieu style="padding:10px; color:#6A6A6A;">
-                            	<div style="font-weight:bold; font-size:25px; color:#000;">GIỚI THIỆU</div><br>
+				</div>		         
+            </div> 
+					
+            <div class="conten_right" style="text-align:justify; color:#000;">
+                <div class=gioithieu style="padding:10px; color:#6A6A6A;">
+                    <div style="font-weight:bold; font-size:25px; color:#000;">GIỚI THIỆU</div><br>
 
-                                       <p><b>TDT Fashion</b> – shop thời trang nam xuất khẩu cao cấp tại Hà Nội. Đến với <b>TDT Fashion</b>, bạn sẽ không phải băn khoăn về chất lượng cũng như giá cả các mặt hàng quần áo nam.</p>
-<p>Với nhiều năm kinh nghiệm về thị trường thời trang nam, chúng tôi đã không ngừng tìm kiếm và cập nhật những mặt hàng thời trang nam tốt nhất, chất lượng nhất tại các công ty may hàng đầu trên khắp Việt Nam, giá cả cực kỳ cạnh tranh. Hãy đến <b>TDT Fashion</b> để cập nhật thường xuyên những xu hướng thời trang nam mới nhất, đẹp nhất, độc nhất dành riêng cho mình nhé.</p>
+                    <p><b>TDT Fashion</b> – shop thời trang nam xuất khẩu cao cấp tại Hà Nội. Đến với <b>TDT Fashion</b>, bạn sẽ không phải băn khoăn về chất lượng cũng như giá cả các mặt hàng quần áo nam.</p>
 
-<p>TDT Fashion cung cấp tất cả những mặt hàng thời trang nam xuất khẩu, vnxk hàng hiệu: áo sơ mi, áo phông, quần bò, quần kaki, quần ngố, đồ lót,.. giày dép nam và rất nhiều những phụ kiện khác: dây lưng, ví da, tất nam, túi… và còn rất nhiều những mặt hàng khác. Quá đa dạng và phong phú phải không! Còn chờ gì nữa, hãy nhanh chân tới ngay <b>TDT Fashion</b> để cập nhật ngay cho mình xu hướng thời trang nam mới nhất nhé. TDT Fashion tin chắc rằng bạn sẽ hài lòng khi sử dụng những mặt hàng tại đây.</p>
+					<p>Với nhiều năm kinh nghiệm về thị trường thời trang nam, chúng tôi đã không ngừng tìm kiếm và cập nhật những mặt hàng thời trang nam tốt nhất, chất lượng nhất tại các công ty may hàng đầu trên khắp Việt Nam, giá cả cực kỳ cạnh tranh. Hãy đến <b>TDT Fashion</b> để cập nhật thường xuyên những xu hướng thời trang nam mới nhất, đẹp nhất, độc nhất dành riêng cho mình nhé.</p>
+
+					<p>TDT Fashion cung cấp tất cả những mặt hàng thời trang nam xuất khẩu, vnxk hàng hiệu: áo sơ mi, áo phông, quần bò, quần kaki, quần ngố, đồ lót,.. giày dép nam và rất nhiều những phụ kiện khác: dây lưng, ví da, tất nam, túi… và còn rất nhiều những mặt hàng khác. Quá đa dạng và phong phú phải không! Còn chờ gì nữa, hãy nhanh chân tới ngay <b>TDT Fashion</b> để cập nhật ngay cho mình xu hướng thời trang nam mới nhất nhé. TDT Fashion tin chắc rằng bạn sẽ hài lòng khi sử dụng những mặt hàng tại đây.</p>
                            
-                			<br>
+                	<br>
                             FPT Polytechnic, Tòa nhà, P. Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br>
                             ĐT: 0914.139.010 (Zalo)<br>
                        
                             Facebook: <a href="https://www.facebook.com/thoitrangnam461B/">https://www.facebook.com/thoitrangnam461B/</a> <br>
                             Website: <a href="https://www.menfashion.com/">menfashion.com</a>
+							<br>
+							<br>
+							<br>
+							<hr>
                           </div>  
                 	</div>		
             </div>
