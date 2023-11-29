@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" type="text/css" href="giao_dien/style.css">
+		<link rel="stylesheet" href="giao_dien/style.css">
 
 	</head>
 	<body>
@@ -64,30 +64,36 @@
 					
             <div class="conten_right" style="text-align:justify; color:#000;">
                 <div class=gioithieu style="padding:10px; color:#6A6A6A;">
-                    <div style="font-weight:bold; font-size:25px; color:#000;">GIỚI THIỆU</div><br>
+                    <div style="font-weight:bold; font-size:25px; color:#000;">GIỚI THIỆU TDT FASHION</div><br>
 
-                    <p><b>TDT Fashion</b> – shop thời trang nam xuất khẩu cao cấp tại Hà Nội. Đến với <b>TDT Fashion</b>, bạn sẽ không phải băn khoăn về chất lượng cũng như giá cả các mặt hàng quần áo nam.</p>
+                    <p>Thương hiệu thời trang nam TDT FASHION được thành lập từ tháng 3 năm 2010, là thương hiệu thời trang uy tín hàng đầu tại Việt Nam dành riêng cho phái mạnh.</p>
 
-					<p>Với nhiều năm kinh nghiệm về thị trường thời trang nam, chúng tôi đã không ngừng tìm kiếm và cập nhật những mặt hàng thời trang nam tốt nhất, chất lượng nhất tại các công ty may hàng đầu trên khắp Việt Nam, giá cả cực kỳ cạnh tranh. Hãy đến <b>TDT Fashion</b> để cập nhật thường xuyên những xu hướng thời trang nam mới nhất, đẹp nhất, độc nhất dành riêng cho mình nhé.</p>
+					<p><b>Sứ mệnh</b></p>
+					<p>Không ngừng sáng tạo và tỉ mỉ từ công đoạn sản xuất đến các khâu dịch vụ, nhằm mang đến cho Quý Khách Hàng những trải nghiệm mua sắm đặc biệt nhất: sản phẩm chất lượng - dịch vụ hoàn hảo - xu hướng thời trang mới mẻ và tinh tế. Thông qua các sản phẩm thời trang, TDT FASHION luôn mong muốn truyền tải đến bạn những thông điệp tốt đẹp cùng với nguồn cảm hứng trẻ trung và tích cực.</p>
 
-					<p>TDT Fashion cung cấp tất cả những mặt hàng thời trang nam xuất khẩu, vnxk hàng hiệu: áo sơ mi, áo phông, quần bò, quần kaki, quần ngố, đồ lót,.. giày dép nam và rất nhiều những phụ kiện khác: dây lưng, ví da, tất nam, túi… và còn rất nhiều những mặt hàng khác. Quá đa dạng và phong phú phải không! Còn chờ gì nữa, hãy nhanh chân tới ngay <b>TDT Fashion</b> để cập nhật ngay cho mình xu hướng thời trang nam mới nhất nhé. TDT Fashion tin chắc rằng bạn sẽ hài lòng khi sử dụng những mặt hàng tại đây.</p>
+					<p><b>Tầm nhìn</b></p>
+					<p>Với mục tiêu xây dựng và phát triển những giá trị bền vững, trong 10 năm tới, TDT FASHION sẽ trở thành thương hiệu dẫn đầu về thời trang phái mạnh trên thị trường Việt Nam.</p>
+
+					<p><b>Thông điệp TDT FASHION gửi đến bạn</b></p>
+					<p>TDT FASHION muốn truyền cảm hứng tích cực đến các chàng trai: Việc mặc đẹp rất quan trọng, nó thể hiện được cá tính, sự tự tin và cả một phần lối sống, cách suy nghĩ của bản thân. Mặc thanh lịch, sống thanh lịch. muốn truyền cảm hứng tích cực đến các chàng trai: Việc mặc đẹp rất quan trọng, nó thể hiện được cá tính, sự tự tin và cả một phần lối sống, cách suy nghĩ của bản thân. Mặc thanh lịch, sống thanh lịch.</p>
+					<p><b>Chọn TDT FASHION, bạn đang lựa chọn sự hoàn hảo cho điểm nhấn thời trang của chính mình!</b></p>
                            
                 	<br>
-                            FPT Polytechnic, Tòa nhà, P. Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br>
+                           <P> FPT Polytechnic, Tòa nhà, P. Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br>
                             ĐT: 0914.139.010 (Zalo)<br>
                        
                             Facebook: <a href="https://www.facebook.com/thoitrangnam461B/">https://www.facebook.com/thoitrangnam461B/</a> <br>
                             Website: <a href="https://www.menfashion.com/">menfashion.com</a>
-							<br>
+						   </P>
 							<br>
 							<br>
 							<hr>
                           </div>  
                 	</div>		
             </div>
-        
-				<?php include('footer.php');?>	
-					
+				<div class="footer">
+					<?php include('footer.php');?>
+				</div>
                     
 				
 		</center>
