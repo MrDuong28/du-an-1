@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" type="text/css" href="giao_dien/css.css">
+		<link rel="stylesheet" href="giao_dien/css1.css">
 		<link rel="icon" type="" href="img/icon.png">
         
 	</head>
@@ -30,9 +30,12 @@
                         
                     </ul>
                 </div>
-				<div class="gioithieu">
-					<a href="gioithieu.php">Giới Thiệu</a>
+				<div class="hd">
+					<a class="gt" href="cachchonsize.php">Cách chọn size</a>
+					<a class="gt" href="gioithieu.php">Giới Thiệu</a>
+
 				</div>
+					
                 <!-- <div class="header_center">
                 	<div class="header_center_left"><?php include("chuc_nang/tim_kiem/vung_tim_kiem.php");?></div>
                     <div class="header_center_right"></div>
