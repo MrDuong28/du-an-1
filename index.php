@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" href="giao_dien/css1.css">
+		<link rel="stylesheet" href="giao_dien/css.css">
 		<link rel="icon" type="" href="img/icon.png">
         
 	</head>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
 				<div class="hd">
-					<a class="gt" href="cachchonsize.php">Cách chọn size</a>
+					<a class="cc" href="cachchonsize.php">Cách chọn size</a>
 					<a class="gt" href="gioithieu.php">Giới Thiệu</a>
 
 				</div>
