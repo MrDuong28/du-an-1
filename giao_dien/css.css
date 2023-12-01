@@ -10,15 +10,15 @@ a {
 }
 
 td div {
-	color: #090;
+	color: red;
 }
 
 div td a {
-	color: #FF158A;
+	color: black;
 }
 
 div {
-	color: #BE036F;
+	color: black;
 }
 
 .header {
@@ -76,7 +76,7 @@ div.menu_doc a {
 	text-decoration: none;
 	display: block;
 	font-size: 16px;
-	margin-left: 5px;
+	
 	padding: 9px 20px;
 
 
@@ -130,8 +130,7 @@ div.phan_trang a {
 
 }
 .menu a:hover {
-	border-bottom: 3px solid black;
-	transition: all 1s;
+	color: rgb(222, 70, 70);
 }
 
 /* .conten {
@@ -193,4 +192,27 @@ div.phan_trang a {
 	padding: 2%;
 
 
+}
+.gt{
+	font-size: 16px;
+	color: white;
+	margin-right: 20px;
+}
+.cc{
+	font-size: 16px;
+	color: white;
+	margin-right: 20px;
+}
+.hdmh{
+	font-size: 16px;
+	color: white;
+	margin-right: 20px;
+}
+.lh{
+	font-size: 16px;
+	color: white;
+}
+.hd{
+	margin-left: 1000px;
+	
 }
