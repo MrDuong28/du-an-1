@@ -6,7 +6,7 @@
 	<form method="post" >
 		<table>
 			<tr>
-				<td>Ký danh :</td>
+				<td>Tên đăng nhập :</td>
 				<td><input style="width:150px" name="ky_danh" ></td>
 			</tr>
 			<tr>
