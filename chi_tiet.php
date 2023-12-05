@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" href="giao_dien/csss.css">
+		<link rel="stylesheet" href="giao_dien/css.css">
 		<style>
     /* Form */
     form {
