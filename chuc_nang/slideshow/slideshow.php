@@ -6,56 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto-Running Slide Show</title>
     <style>
-             .slideshow-container {
-            max-width: 1000px;
+        .slideshow .slideshow-container .prev {
             position: relative;
-            margin: auto;
-        }
+            top:300px;
 
-        .mySlides {
-            display: none;
-        }
-
-        .prev, .next {
-            position: absolute;
-            top: 50%;
             width: auto;
             padding: 16px;
             margin-top: -22px;
-            color: white;
+            cursor: pointer;
+            left: -700px;
+            color: black;
             font-weight: bold;
             font-size: 18px;
             transition: 0.6s ease;
             border-radius: 0 3px 3px 0;
-            cursor: pointer;
+            user-select: none;
+            color: white;
         }
+        .slideshow .slideshow-container .next {
+            position: relative;
+            top:300px;
 
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            cursor: pointer;
+            left:500px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            color: white;
+        }
         .next {
             right: 0;
             border-radius: 3px 0 0 3px;
         }
-
         .prev:hover, .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
+            background-color: rgba(0,0,0,0.8);
+            
+            }
     </style>
 </head>
 <body>
-
-<div class="slideshow-container">
+<div class="slideshow" style="width: 1400px;height:600px ;background-image: url('hinh_anh/banner/background.jpg');margin-top: -111px;">
+<div class="slideshow-container" style=" top:5px ; left: 5px; ">
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
     <div class="mySlides">
-        <img src="img/a4-1900x774.jpg" style="width: 792px; height: 300px;">
+        <img src="hinh_anh/banner/banner1.jpg"  style="width: 1300px; height: 500px;;">
     </div>
 
     <div class="mySlides">
-        <img src="img/banner-thoi-trang-nam-dep (1).jpg" style="width: 792px;height: 300px;">
+        <img src="hinh_anh/banner/banner5.jpg"  style="width: 1300px;height: 500px; ">
     </div>
 
     <div class="mySlides">
-        <img src="img/banner-thoi-trang-nam.jpg" style="width: 792px;height: 300px;">
+        <img src="hinh_anh/banner/banner7.webp" style="width: 1300px;height: 500px; ">
     </div>
-
+    
    
+</div>
 </div>
 
 <script>
@@ -84,7 +97,7 @@
     // Tự động chuyển slide mỗi 3 giây
     setInterval(function() {
         plusSlides(1);
-    }, 3000);
+    }, 5000);
 </script>
 
 </body>
