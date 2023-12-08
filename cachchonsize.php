@@ -16,12 +16,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>TDT FASHION</title>
-		<link rel="stylesheet" href="giao_dien/css.css">
+		<link rel="stylesheet" href="giao_dien/csss.css">
 
 	</head>
 	<body>
 
-		<center>
+		
 		<div class="header">
 			<div class="header_left">
 				<p>Hotline: 0914139010</p>
@@ -46,7 +46,9 @@
 			<div class="menu">
            		<?php include("chuc_nang/menu_ngang/menu_ngang.php");?>            
 			</div>
-
+			<div class="header2" style="margin-top: -20px;">
+				<p>TDT FASHION / CÁCH CHỌN SIZE</p>
+			</div>
             <div class="conten">
             	<div class="conten_left">
                     <div class="nhungdanhmuc">
@@ -83,7 +85,7 @@
 				</div>
 
 
-		</center>
+		
 	</body>
 	<style>
 		body{
