@@ -4,12 +4,12 @@
 <form action="" method="post">
 	<table width="990px" >
 		<tr>
-			<td colspan="2" ><b style="color:black;font-size:20px" >Thêm menu dọc</b><br><br> </td>
+			<td colspan="2" ><b style="color:black;font-size:20px;" >Thêm menu dọc</b><br><br> </td>
 			
 		</tr>
 		<tr>
 			<td>Tên danh mục: 
-			<input style="width:200px" name="ten" value="" >
+			<input style="width:200px;border-radius: 5px;" name="ten" value="" >
 			</td>
 
 		</tr>
@@ -17,7 +17,7 @@
 			
 			<td>
 				<br>
-				<input type="submit" name="bieu_mau_them_menu_doc" value="Thêm " style="width:55px;height:30px;font-size:16px" >
+				<input type="submit" name="bieu_mau_them_menu_doc" value="Thêm " style="width:55px;height:30px;font-size:16px;border-radius: 5px;" >
 			</td>
 		</tr>
 	</table>
